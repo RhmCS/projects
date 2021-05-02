@@ -1,0 +1,116 @@
+/*
+----------------------------------------------
+				Color Palette"
+					f7f6e7
+					e7e6e1
+					f2a154
+					314e52
+----------------------------------------------
+*/
+
+body {
+  background: #f4f9f9;
+  font-family: "Almarai", sans-serif;
+  color: #314e52;
+}
+
+/*----------------------------------------------*/
+
+.header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/*----------------------------------------------*/
+
+.box {
+  position: relative;
+  margin: auto;
+  height: 500px;
+  width: 800px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+/*----------------------------------------------*/
+
+.left-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  padding-left: 10px;
+  height: 500px;
+  width: 400px;
+  background: #f7f6e7;
+  border-radius: 20px 0px 0px 20px;
+}
+
+/*----------------------------------------------*/
+
+.buttons {
+  margin-top: 180px;
+}
+
+/*----------------------------------------------*/
+
+.buttons #click,
+#reset {
+  margin: 5px;
+  padding: 10px;
+  width: 150px;
+  background: #f2a154;
+  border: 2px solid #e0dede;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "Almarai", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #314e52;
+}
+
+/*----------------------------------------------*/
+
+#click:hover,
+#reset:hover {
+  background: #e7e6e1;
+  border: 2px solid #e7e6e1;
+}
+
+/*----------------------------------------------*/
+
+.buttons #result {
+  background: #f7f6e7;
+  border-radius: 50%;
+  border: 2px solid #f2a154;
+  font-size: 18px;
+  color: #314e52;
+  text-align: center;
+  padding: 40px;
+  margin: 80px 115px 115px 0px;
+}
+
+/*----------------------------------------------*/
+
+.right-box {
+  position: absolute;
+  /*top: 0;
+  right: 0;
+  */
+  box-sizing: border-box;
+  width: 400px;
+  height: 500px;
+  background: #e7e6e1;
+  border-radius: 0px 20px 20px 0px;
+}
+
+/*----------------------------------------------*/
+
+.content {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 200px;
+}
